@@ -93,7 +93,7 @@ Section Heading:    24px/1.3 "Open Sans", arial, sans-serif;
 Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 
 -------------------------------------------------------------------*/
-.boom-parent{
+.boom-justify{
 	display:inline;
 	flex-wrap:wrap;
 	justify-content: center;
@@ -101,6 +101,10 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 }
 .boom-padding{ padding-right: 10px; 
 margin-right:-65px;}
+.boom-left{left:250px;}
+.boom-center {
+  width: 50%;
+}
 
 /* ==============================
    Common styles
@@ -111,9 +115,11 @@ margin-right:-65px;}
 .align-right{ text-align:right !important; }
 .left{float:left !important;}
 .right{float:right !important;}
+.up{top:-235px !important;}
 
 .parent { position: relative;}
 .child { position: absolute; margin-bottom: 20px;}
+.boom-child { position: absolute;}
 .boom{position:relative; right:-430px; }
 
 .relative{position:relative;}
@@ -454,6 +460,9 @@ hr.black{
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
+.kerning-down{
+	letter-spacing: 0.2em !important;
+}
 .serif{
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
@@ -461,6 +470,9 @@ hr.black{
 }
 .normal{
 	font-weight: normal;
+}
+.medium-strong{
+    font-weight: 450 !important;
 }
 .strong{
     font-weight: 700 !important;

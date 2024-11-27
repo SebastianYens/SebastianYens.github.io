@@ -111,6 +111,7 @@ margin-right:-65px;}
 .boom-shadow {
   border-style:solid;
 }
+.boom-left{position:relative; left:-140px; }
 /* ==============================
    Common styles
    ============================== */
@@ -4208,7 +4209,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid #111;
+    border: 1px solid #fff;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4228,10 +4229,13 @@ a.logo:hover{
     
 }
 .footer-social-links a:hover{
-    color: #fff;
+    color: #D2BF55;
 }
 .footer-social-links a:hover:before{
-    background: #111;
+    background: #D2BF55;
+}
+.footer-boom{
+	color:#fff;
 }
 
 a.link-to-top{

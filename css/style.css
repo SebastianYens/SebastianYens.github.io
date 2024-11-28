@@ -1382,6 +1382,17 @@ a.btn-mod:focus{
     background: rgba(0,0,0,0.75);
     color:rgba(255,255,255,0.85);
 }
+.hs-line-17{
+    margin-top: 0;
+    /*display: inline-block;*/
+    position: relative;
+    padding: 10px 24px;
+    background: rgba(0,0,0, .75);
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: rgba(255,255,255, .85);
+}
 .no-transp{
     opacity: 1 !important;
 }

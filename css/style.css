@@ -112,6 +112,8 @@ margin-right:-65px;}
   border-style:solid;
 }
 .boom-left{position:relative; left:-140px; }
+.boom-remove{padding-right:-100px !important;
+padding-left:0px !important;}
 /* ==============================
    Common styles
    ============================== */

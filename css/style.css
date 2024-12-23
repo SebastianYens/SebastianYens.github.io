@@ -2774,15 +2774,17 @@ a.logo:hover{
 .bg-blue{ background-color: #43a5de !important; }
 .bg-purple{ background-color: #375acc !important; }
 .bg-red{ background-color: #e13939 !important; }
-
+/* Changed section-title from font size 18px to 25px, and letter spacing from 0.5em to 0.3em   */
 .section-title {
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
     line-height: 1.4;
+    
+
 }
 .section-more{
     margin-top: 7px;
@@ -4043,16 +4045,22 @@ a.logo:hover{
 .ci-icon span{
     position: relative;
 }
+/* changed Ci-title to font-size 21 from 12px. Changed letter spacing from 0.3em to 0.25em  
+
+Changed ci-text to 18 px from 15 px
+ */
 .ci-title{
     margin-bottom: 1px;
     color: #777;    
-    font-size: 12px;
+    font-size: 21px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.25em;
+    
+
 }
 .ci-text{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
 }
 

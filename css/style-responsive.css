@@ -838,3 +838,203 @@ Primary use:    MultiPurpose Template
         width: auto;
     }
 }
+
+
+/* ==============================
+   Portfolio custom mobile fixes
+   ============================== */
+
+@media only screen and (max-width: 992px) {
+
+    .boom-padding {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .boom-left,
+    .boom {
+        left: 0;
+        right: 0;
+        position: relative;
+    }
+
+    .up {
+        top: 0 !important;
+    }
+
+    .container .right.boom-padding,
+    .col-md-8.col-lg-offset-1.right,
+    .col-md-7.col-lg-offset-1 {
+        float: none !important;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .home-section .container.right .home-text,
+    .home-section .home-text.relative,
+    .home-section .home-text {
+        text-align: center;
+    }
+
+    .home-section .container.relative .home-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    html,
+    body,
+    .page {
+        overflow-x: hidden;
+    }
+
+    .hs-line-16 {
+        font-size: 32px;
+        letter-spacing: 0.15em;
+        padding: 12px 16px;
+        display: block;
+        word-break: break-word;
+    }
+
+    .hs-line-17 {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 16px;
+    }
+
+    .hs-line-18 {
+        width: auto;
+        max-width: 90%;
+        font-size: 14px;
+        letter-spacing: 0.15em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hs-line-19 {
+        font-size: 28px;
+        letter-spacing: 0.2em;
+        padding: 8px 12px;
+        display: block;
+    }
+
+    .work-navigation a {
+        float: none;
+        width: 100%;
+        white-space: normal;
+    }
+
+    .work-navigation a span {
+        height: auto;
+        min-height: 48px;
+        line-height: 1.4;
+        padding: 14px 16px;
+        display: block;
+        text-align: center !important;
+    }
+
+    .work-prev,
+    .work-next,
+    .work-all {
+        text-align: center;
+    }
+
+    .page-section img,
+    .container img,
+    .home-section img,
+    .work-full-media img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .home-section.bg-scroll.fixed-height-large,
+    .home-section.bg-scroll.fixed-height-medium,
+    .home-section.bg-scroll.fixed-height-small {
+        min-height: 360px;
+    }
+
+    .btn-mod.btn-medium {
+        white-space: normal;
+        line-height: 1.5;
+    }
+
+    .section-title.font-alt {
+        font-size: 28px;
+        letter-spacing: 0.1em;
+    }
+
+    .contact-item {
+        text-align: center;
+    }
+
+    .footer-text,
+    .footer-social-links {
+        text-align: center;
+    }
+
+    .page-section,
+    .home-section.bg-light-boom.small-section {
+        overflow-x: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .hs-line-16 {
+        font-size: 22px;
+        letter-spacing: 0.08em;
+        padding: 10px 12px;
+    }
+
+    .hs-line-19 {
+        font-size: 20px;
+        letter-spacing: 0.12em;
+    }
+
+    .hs-line-18 {
+        font-size: 12px;
+    }
+
+    .fixed-height-large {
+        min-height: 280px;
+    }
+
+    .fixed-height-medium {
+        min-height: 260px;
+    }
+
+    .fixed-height-small {
+        min-height: 240px;
+    }
+
+    .works-filter a {
+        font-size: 12px;
+        letter-spacing: 0.1em;
+    }
+
+    .work-navigation a span {
+        font-size: 10px;
+        letter-spacing: 1px;
+        padding: 12px 10px;
+    }
+
+    .home-content .home-text {
+        display: block;
+        height: auto;
+        vertical-align: middle;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .js-height-parent,
+    .js-height-full {
+        min-height: 0 !important;
+        height: auto !important;
+    }
+
+}

@@ -239,6 +239,16 @@
         
             if ($(".main-nav").hasClass("mobile-on")) {
                 mnThisLi = $(this).parent("li:first");
+                var subMenu = mnThisLi.children(".mn-sub:first");
+
+                if (!subMenu.length) {
+                    if (mobile_nav.hasClass("active")) {
+                        desktop_nav.slideUp("slow", "easeOutExpo").removeClass("js-opened");
+                        mobile_nav.removeClass("active");
+                    }
+                    return;
+                }
+
                 if (mnThisLi.hasClass("js-opened")) {
                     mnThisLi.find(".mn-sub:first").slideUp(function(){
                         mnThisLi.removeClass("js-opened");
